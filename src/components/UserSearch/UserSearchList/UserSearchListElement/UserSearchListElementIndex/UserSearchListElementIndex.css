@@ -1,0 +1,30 @@
+.userSearch__listElementIndex {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    border-radius:50%;
+    box-shadow: 0px 0 0 8px #ebeef3;
+    margin-right: 1rem;
+    text-align: center;
+    color: #6579c5;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 3rem;
+    transform: translateX(5px);
+}
+
+@media only screen and (max-width: 1084px) {
+    .userSearch__listElementIndex  {
+        font-size: 1.2rem;
+        width: 2rem;
+        height: 2rem;
+        line-height: 2rem;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .userSearch__listElementIndex {
+        transform: translateY(-9px);
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,16 @@
+.userSearch__listElementUsername {
+    line-height: 1.2rem;
+    display: inline-block;
+    vertical-align: middle;
+    color: #6dccb2;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: right;
+    padding: 0 0.5rem;
+}
+
+@media only screen and (max-width: 1084px) {
+    .userSearch__listElementUsername {
+      font-size: 0.9rem;
+    }
+}

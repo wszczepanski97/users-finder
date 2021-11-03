@@ -1,0 +1,24 @@
+.userSearch__listElementWrapper {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 10px 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 7px -1px rgba(51, 51, 51, 0.23);
+    background-color: #ffffff;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+.userSearch__listElementWrapper:hover {
+    transform: scale(1.05);
+    box-shadow: 0 9px 47px 11px rgba(51, 51, 51, 0.18);
+    z-index: 2;
+}
+
+@media only screen and (max-width: 930px) {
+    .userSearch__listElementWrapper {
+        flex-direction: column;
+        width: 205px;
+    }
+}

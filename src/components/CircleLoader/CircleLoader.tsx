@@ -1,0 +1,1 @@
+export const CircleLoader = () => <h3>Loading...</h3>;
